@@ -20,7 +20,7 @@ public class Main {
         }
     }
 
-    public static <T> Set <T> konversiCollection(List<T> dataBarang, Class<?> jenisCollection) {
+    public static <K> Set <K> konversiCollection(List<K> dataBarang, Class<?> jenisCollection) {
         if (jenisCollection == List.class) {
             return new HashSet<>(dataBarang);
         } else if (jenisCollection == HashSet.class) {
