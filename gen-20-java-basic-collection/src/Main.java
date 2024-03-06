@@ -13,7 +13,7 @@ public class Main {
         if (!dataBarang.isEmpty()) {
             System.out.println();
             System.out.println("Salah satu data barang: ");
-            System.out.println(dataBarang.get(4));
+            System.out.println(dataBarang.get(3));
             System.out.println();
         } else {
             System.out.println("Tidak ada barangnya ngab.");
