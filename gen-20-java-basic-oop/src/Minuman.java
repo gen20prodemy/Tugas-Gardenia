@@ -3,7 +3,6 @@ public class Minuman extends Produk {
         super(minuman, harga, new Kategori("Minuman"));
     }
 
-    @Override
     public double getHarga() {
         if (getProduk().equals("Air Putih")) {
             return 5000;

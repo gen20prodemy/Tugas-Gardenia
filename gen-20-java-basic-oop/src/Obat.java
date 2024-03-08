@@ -3,7 +3,6 @@ public class Obat extends Produk{
         super(obat, harga, new Kategori("Obat"));
     }
 
-    @Override
     public double getHarga() {
         if (getProduk().equals("Bodrex")) {
             return 1500;
